@@ -34,6 +34,16 @@ print '<!DOCTYPE html>';
 print '
 <html lang="en">
 <head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-06CNB22BQV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "G-06CNB22BQV");
+</script>
+
 <title>Galaxy Invaders 3D</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
